@@ -10,8 +10,8 @@ import Footer from "@/components/Footer";
 
 export default function Index() {
   return (
-    <div className="min-h-screen bg-background">
-      <Navbar />
+    <div className="min-h-screen bg-background flex justify-center items-center px-[30px]">
+      {/* <Navbar />
       <HeroSection />
       <EnvironmentSetup />
       <DocumentationTemplate />
@@ -19,7 +19,9 @@ export default function Index() {
       <ReproducibilityChecker />
       <ImpactSection />
       <CommunitySection />
-      <Footer />
+      <Footer /> */}
+      {/* <p className="text-center text-[80px]">PAGE WILL NOT BE DISPLAYED UNTIL YOU PAY THE COMPLETE FEE</p> */}
+      
     </div>
   );
 }
